@@ -18,7 +18,7 @@ $debug = $true
 $searchMessages = @("freeze synchronization failed","sync failed, making inconsistent snapshot")
 
 
-
+# Connect to vCenter
 Connect-VIServer -Server $vcHost -Protocol https -User $vcUsername -Password $vcPassword
 
 
